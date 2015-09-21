@@ -1,14 +1,13 @@
 #! /usr/bin/python
 #by Vaishak Lalsangi
-#andrewid: vnl
 
 from Tkinter import *
 import random
 
-class Struct:
+class Struct: #define Struct like class for Python
 	pass
 
-def run(row, col, size):
+def run(row, col, size): #initializes lot of data, starts startScreen/mainloop
 	global root
 	root = Tk()
 	global canvas 
